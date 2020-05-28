@@ -1,0 +1,97 @@
+* {
+    margin: 15px;
+}
+
+body {
+    background: url('images/kamien_papier_nozyce.png') rgb(55, 55, 83);
+    color: white;
+}
+
+#container {
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto -50% auto auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.pkn {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0px;
+    padding-bottom: 4px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+hr {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    border: 1px solid white;
+}
+
+span {
+    background-color: rgb(240, 229, 229);
+}
+
+#maxPoints {
+    background-color: rgba(0, 0, 0, 0);
+    margin: 1px;
+}
+
+.layout {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    color: black;
+}
+
+.spacing {
+    width: 10%;
+}
+
+.borders {
+    font: bold 15px Arial;
+    border-radius: 6%;
+    background-color: rgb(226, 228, 106);
+}
+
+#p2 {
+    float: right;
+}
+
+input {
+    width: 42px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: auto auto 15px auto;
+    color: white;
+    font-weight: bold;
+}
+
+.points {
+    font: bold 14px Arial;
+    text-align: center;
+    margin: 18px 0px;
+}
+
+.green {
+    background-color: green;
+}
+
+#res {
+    display: block;
+    margin: auto;
+    background-color: rgb(191, 153, 202);
+}
